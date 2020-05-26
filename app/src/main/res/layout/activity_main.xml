@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/CityTextView"
+        android:id="@+id/TextViewCity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/weather_name"
@@ -19,7 +19,7 @@
         android:textColor="@android:color/black"
         />
     <EditText
-        android:id="@+id/CityEditText"
+        android:id="@+id/EditTextfindCity"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="36dp"

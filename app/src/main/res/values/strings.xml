@@ -3,4 +3,5 @@
     <string name="weather_name">Погода в Вашем городе</string>
     <string name="hint_text">Введите свой город</string>
     <string name="weather_city">Узнать погоду</string>
+    <string name="enter_city">Введите Ваш город</string>
 </resources>
