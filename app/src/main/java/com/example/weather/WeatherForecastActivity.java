@@ -8,13 +8,11 @@ import android.widget.TextView;
 
 public class WeatherForecastActivity extends AppCompatActivity {
 
-    private TextView textViewValues;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather_forecast);
-        textViewValues = findViewById(R.id.textViewValues);
+        TextView textViewValues = findViewById(R.id.textViewValues);
         Intent weatherIntent = getIntent();
         if (weatherIntent.hasExtra("name")){
             String name = weatherIntent.getStringExtra("name");

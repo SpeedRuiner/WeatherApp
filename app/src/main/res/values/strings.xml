@@ -4,4 +4,8 @@
     <string name="hint_text">Введите свой город</string>
     <string name="weather_city">Узнать погоду</string>
     <string name="enter_city">Введите Ваш город</string>
+    <string name="humidity">Влажность</string>
+    <string name="wind">Скорость ветра</string>
+    <string name="pressure">Давление</string>
+    <string name="vales_of_weather">Дополнительные значения погоды: </string>
 </resources>
